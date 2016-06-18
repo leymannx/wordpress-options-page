@@ -78,7 +78,7 @@ add_action( 'admin_init', 'display_theme_panel_fields' );
 function display_twitter_element() {
 
 	?>
-	<input type='text' name='twitter_url' id='twitter_url' value='<?php echo get_option( 'twitter_url' ); ?>'/>
+	<input type="text" name="twitter_url" id="twitter_url" value="<?php echo get_option( 'twitter_url' ); ?>"/>
 	<?php
 }
 
@@ -105,6 +105,6 @@ function display_facebook_element() {
 function display_layout_element() {
 
 	?>
-	<input type='checkbox' name='theme_layout' value='1' <?php checked( 1, get_option( 'theme_layout' ), TRUE ); ?> />
+	<input type="checkbox" name="theme_layout" value="1" <?php checked( 1, get_option( 'theme_layout' ), TRUE ); ?> />
 	<?php
 }
